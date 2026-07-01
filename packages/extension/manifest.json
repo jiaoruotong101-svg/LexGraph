@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "LexGraph",
+  "version": "0.1.0",
+  "description": "Build Your Personal Knowledge Universe",
+  "permissions": ["storage", "tabs", "contextMenus"],
+  "host_permissions": ["https://dict.youdao.com/*"],
+  "background": {
+    "service_worker": "src/background/index.ts"
+  },
+  "action": {
+    "default_popup": "src/popup/index.html",
+    "default_title": "LexGraph"
+  },
+  "icons": {
+    "16": "public/icons/icon16.png",
+    "48": "public/icons/icon48.png",
+    "128": "public/icons/icon128.png"
+  }
+}

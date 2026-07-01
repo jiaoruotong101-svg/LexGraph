@@ -1,0 +1,21 @@
+{
+  "name": "lexgraph",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Build Your Personal Knowledge Universe",
+  "scripts": {
+    "dev": "pnpm -F @lexgraph/extension dev",
+    "build": "pnpm -F @lexgraph/extension build",
+    "typecheck": "pnpm -r typecheck",
+    "lint": "eslint . --ext .ts,.tsx --ignore-pattern dist --ignore-pattern node_modules",
+    "format": "prettier --write \"packages/**/*.{ts,tsx,json,css}\""
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^7.0.0",
+    "@typescript-eslint/parser": "^7.0.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^3.2.0",
+    "typescript": "^5.4.0"
+  }
+}
