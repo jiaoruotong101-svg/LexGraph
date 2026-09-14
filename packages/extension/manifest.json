@@ -13,8 +13,8 @@
     "default_title": "LexGraph"
   },
   "icons": {
-    "16": "public/icons/icon16.png",
-    "48": "public/icons/icon48.png",
-    "128": "public/icons/icon128.png"
+    "16": "public/icons/icon16-v2.png",
+    "48": "public/icons/icon48-v2.png",
+    "128": "public/icons/icon128-v2.png"
   }
 }
